@@ -49,7 +49,7 @@ Adafruit_INA219 ina219;
 void setupWifi() {
   delay(10);
   Serial.println();
-  Wire.begin(0, 2);
+  Wire.begin(4, 5);
   uint32_t currentFrequency;
   ina219.begin();
  
